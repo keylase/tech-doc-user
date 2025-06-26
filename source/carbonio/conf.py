@@ -21,7 +21,7 @@ import time
 hubhome = 'https://docs.zextras.com/landing/zextras_documentation.html'
 # Define the languages you want to support
 # Adatta questa lista alle lingue che desideri supportare
-locales = ['en', 'it', 'fr']
+locales = ['en', 'it', 'fr', 'ru']
 
 # Path to your locale directories
 locale_dirs = ['locales/']
@@ -107,10 +107,10 @@ html_sidebars = {"**": ['navbar-logo.html', 'search-button-field.html', 'sbt-sid
 
 # Exporting variables to be available in templates
 
-languages = ['en', 'it', 'fr']
+languages = ['en', 'it', 'fr','ru']
 
 html_context = {
-    'languages': ['en', 'it'],
+    'languages': ['en', 'ru', 'it'],
     'localpath': 'docs',
     'hubhome': '%s' % hubhome,
 }
